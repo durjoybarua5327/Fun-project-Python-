@@ -17,8 +17,6 @@ driver = webdriver.Chrome(service=s, options=chrome_options)
 
 driver.get("https://www.facebook.com/")
 time.sleep(4)
-
-
 """
 copy url of your profile= https://www.facebook.com/durjoybarua.durjoybarua.754
 then remove front portion and the user name will be = durjoybarua.durjoybarua.
